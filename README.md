@@ -1,1 +1,135 @@
-# fotografia
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariana Cuhr - Fotógrafa</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            font-family: "Times New Roman", serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+            border-bottom: 1px solid #333;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        /* Portfolio estilo Instagram */
+        .portfolio {
+            width: 90%;
+            max-width: 1100px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 1 / 1;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .portfolio img:hover {
+            transform: scale(1.03);
+            opacity: 0.8;
+        }
+
+        /* Botões */
+        .buttons {
+            margin: 40px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 15px 25px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Área de contato */
+        .contato {
+            margin-top: 50px;
+            padding: 40px 20px;
+            border-top: 1px solid #333;
+        }
+
+        .contato h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>MARIANA CUHR</h1>
+        <p>Fotografia Profissonal • Ensaios • Eventos • Esportes</p>
+    </header>
+
+    <section class="buttons">
+        <a class="btn" href="https://instagram.com/marianacuhrfotos" target="_blank">Instagram</a>
+        <a class="btn" href="https://wa.me/47997406055" target="_blank">WhatsApp</a>
+    </section>
+
+    <section class="portfolio">
+        <!-- Adicione quantas fotos quiser -->
+        <img src="https://i.ibb.co/n8Cr1BMh/IMG-1747-TIF.jpg" alt="Foto do portfólio">
+        <img src="https://i.ibb.co/Wmz23jb/IMG-1781-TIF.jpg" alt="">
+        <img src="https://i.ibb.co/fz7Pfkz5/DSC-0623.jpg" alt="">
+        <img src="https://i.ibb.co/kCNbzWx/DSC-0497.jpg" alt="">
+        <img src="https://i.ibb.co/xqG19w7P/DSC-0982.jpg" alt="">
+        <img src="https://i.ibb.co/6cmCFjxz/IMG-4884.jpg" alt="">
+        <img src="https://i.ibb.co/TxhG1zGj/DSC-0174.jpg" alt="">
+        <img src="https://i.ibb.co/1Ych6sR6/DSC0067.jpg" alt="">
+        <img src="https://i.ibb.co/YBPLD3Xq/DSC-0654.jpg" alt="">
+        <img src="https://i.ibb.co/fVgVpCfK/DSC-0342.jpg" alt="">
+    </section>
+
+    <section class="contato">
+        <h2>Contato</h2>
+        <p>Agende seu ensaio e registre momentos inesquecíveis.</p>
+        <p></p>
+        <p>WhatsApp: (47) 99740-6055</p>
+    </section>
+
+    <footer>
+        © 2025 • Mariana Cuhr Fotografia
+    </footer>
+
+</body>
